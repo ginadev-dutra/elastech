@@ -1,5 +1,9 @@
 package elastech;
 
+/*
+Criar um array de 5 elementos Integer, atribuindo um valor a cada elemento (escolher os valores que quiser).
+Escrever um método que encontre a soma de todos os valores.
+ */
 public class ExercicioArray2 {
     Integer[] numeros = new Integer[]{12, 7, 26, 58, 69};
 
