@@ -1,13 +1,71 @@
 package elastech;
 
+import java.util.Locale;
+
 public class Pessoa {
 
-    public String nome;
-    private int idade;
+    private String nome;
+    private String idade;
+    private String cidade;
+    private String pais;
 
-    public String cidade;
+    public Pessoa(String nome, String idade, String cidade, String pais) {
+       // this.nome = nome.toUpperCase();
+        this.setNome(nome);
+        this.idade = idade;
+        this.cidade = cidade;
+        this.pais = pais;
+    }
 
+    public Pessoa() {
+    }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome.toUpperCase();
+    }
+
+    public String getIdade() {
+        return idade;
+    }
+
+    public void setIdade(String idade) {
+        this.idade = idade;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
+/*    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", idade='" + idade + '\'' +
+                ", cidade='" + cidade + '\'' +
+                ", pais='" + pais + '\'' +
+                '}';
+    }*/
+
+    @Override
+    public String toString() {
+        return "Olá, eu sou um objeto e meu nome " + System.getProperty("line.separator") +" é = " + nome;
+    }
 
     public void correr(int km){
       /*  if(km == 2){
