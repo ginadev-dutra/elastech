@@ -1,4 +1,4 @@
-package elastech.aula2810;
+package elastech.aula2710;
 
 public class Veiculo {
 
