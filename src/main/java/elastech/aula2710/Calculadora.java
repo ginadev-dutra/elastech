@@ -14,10 +14,12 @@ public interface Calculadora {
     public int potencia(int a, int b);
 
     public default String meuMetodoDefault() {
+
         return "Esse é meu método default";
     }
 
     public static String meuMetodoStatic() {
+
         return "Esta é minha calculadora";
     }
 }

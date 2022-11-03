@@ -16,3 +16,6 @@ public abstract class OutraCalculadora implements Calculadora {
     public abstract String imprime();
 
 }
+
+// colocando abstract não precisa colocar todos os métodos da interface
+// mas ela também não pode ser instânciada.
